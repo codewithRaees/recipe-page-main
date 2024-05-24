@@ -18,6 +18,8 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   
+   text-align: justify;
 }
  header img {
     background-size: cover;
@@ -117,11 +119,11 @@ th, td {
 }
 .tbl-nutrition{
     font-family: 'outfit',sans-serif;
-    min-width: 630px;
+    max-width: 630px;
     line-height: 32px;
 }
 .topHeading h1{
-    font-weight: 400px;
+    font-weight: 400;
     font-family: inherit;
     font-size: 35px;
     margin-bottom: 20px;
